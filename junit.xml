@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="10" failures="10" time="3.255">
-  <testsuite name="undefined" errors="0" failures="10" skipped="0" timestamp="2022-06-08T12:20:57" time="2.5" tests="10">
-    <testcase classname=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" name=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" time="0.055">
+<testsuites name="jest tests" tests="10" failures="10" time="2.407">
+  <testsuite name="undefined" errors="0" failures="10" skipped="0" timestamp="2022-06-08T12:23:09" time="1.785" tests="10">
+    <testcase classname=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" name=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" time="0.09">
       <failure>Error: expect(element).toContainElement(element)
 
 &lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
@@ -14,7 +14,7 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" For a task in stage 0, backward icon is disabled and forward icon is enabled" name=" For a task in stage 0, backward icon is disabled and forward icon is enabled" time="0.017">
+    <testcase classname=" For a task in stage 0, backward icon is disabled and forward icon is enabled" name=" For a task in stage 0, backward icon is disabled and forward icon is enabled" time="0.02">
       <failure>Error: expect(element).toContainElement(element)
 
 &lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
@@ -26,7 +26,7 @@
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" name=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" time="0.015">
+    <testcase classname=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" name=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" time="0.016">
       <failure>Error: expect(element).toContainElement(element)
 
 &lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
@@ -38,7 +38,7 @@
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" name=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" time="0.016">
+    <testcase classname=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" name=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" time="0.019">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
 
 &lt;body&gt;
@@ -242,7 +242,7 @@
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 0" name=" Clicking on delete should delete the task in stage 0" time="0.012">
+    <testcase classname=" Clicking on delete should delete the task in stage 0" name=" Clicking on delete should delete the task in stage 0" time="0.011">
       <failure>Error: expect(element).toContainElement(element)
 
 &lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
@@ -662,7 +662,7 @@
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 3" name=" Clicking on delete should delete the task in stage 3" time="0.014">
+    <testcase classname=" Clicking on delete should delete the task in stage 3" name=" Clicking on delete should delete the task in stage 3" time="0.017">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
 
 &lt;body&gt;
@@ -866,7 +866,7 @@
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" after many forward and back operations, tasks are in correct state" name=" after many forward and back operations, tasks are in correct state" time="0.021">
+    <testcase classname=" after many forward and back operations, tasks are in correct state" name=" after many forward and back operations, tasks are in correct state" time="0.016">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-3-forward&quot;]
 
 &lt;body&gt;
@@ -1070,7 +1070,7 @@
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" tasks are in correct state after multiple move and deletions" name=" tasks are in correct state after multiple move and deletions" time="0.014">
+    <testcase classname=" tasks are in correct state after multiple move and deletions" name=" tasks are in correct state after multiple move and deletions" time="0.018">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
 
 &lt;body&gt;

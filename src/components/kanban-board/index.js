@@ -4,6 +4,7 @@ import "./index.css";
 export default class KanbanBoard extends Component {
   constructor() {
     super();
+    this.taskName='',
     // Each task is uniquely identified by its name. 
     // Therefore, when you perform any operation on tasks, make sure you pick tasks by names (primary key) instead of any kind of index or any other attribute.
     this.state = {
@@ -28,6 +29,21 @@ export default class KanbanBoard extends Component {
       tasks: stateCopy
     });
   }
+addInput =(e)=>
+{
+  this.setState({taskName:e.target.value});
+}
+addTask=()=>{
+  this.setState({
+    tasks:[
+      ...this.state.tasks,
+      {
+        name : this.state.taskName,
+        stage:0
+      }
+    ]
+  });
+}
 
  moveToForward = (task) => {
     const stateCopy = [...this.state.tasks];
@@ -59,8 +75,8 @@ export default class KanbanBoard extends Component {
     return (
       <div className="mt-20 layout-column justify-content-center align-items-center">
         <section className="mt-50 layout-row align-items-center justify-content-center">
-          <input id="create-task-input" type="text" className="large" placeholder="New task name" data-testid="create-task-input" />
-          <button type="submit" className="ml-30" data-testid="create-task-button">Create task</button>
+          <input onChange={e=>addInput(e)}id="create-task-input" type="text" className="large" placeholder="New task name" data-testid="create-task-input" />
+          <button onClick={addTask} type="submit" className="ml-30" data-testid="create-task-button">Create task</button>
         </section>
 
         <div className="mt-50 layout-row">
