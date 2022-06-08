@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="10" failures="10" time="2.407">
-  <testsuite name="undefined" errors="0" failures="10" skipped="0" timestamp="2022-06-08T12:23:09" time="1.785" tests="10">
-    <testcase classname=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" name=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" time="0.09">
-      <failure>Error: expect(element).toContainElement(element)
-
-&lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
-        
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:42:23)
+<testsuites name="jest tests" tests="10" failures="10" time="2.486">
+  <testsuite name="undefined" errors="0" failures="10" skipped="0" timestamp="2022-06-08T12:37:50" time="1.832" tests="10">
+    <testcase classname=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" name=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" time="0.061">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:26:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
@@ -14,1260 +38,324 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" For a task in stage 0, backward icon is disabled and forward icon is enabled" name=" For a task in stage 0, backward icon is disabled and forward icon is enabled" time="0.02">
-      <failure>Error: expect(element).toContainElement(element)
-
-&lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
-        
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:74:23)
+    <testcase classname=" For a task in stage 0, backward icon is disabled and forward icon is enabled" name=" For a task in stage 0, backward icon is disabled and forward icon is enabled" time="0.009">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:58:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" name=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" time="0.016">
-      <failure>Error: expect(element).toContainElement(element)
-
-&lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
-        
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:106:23)
+    <testcase classname=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" name=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" time="0.005">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:82:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" name=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" time="0.019">
-      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
-
-&lt;body&gt;
-  &lt;div&gt;
-    &lt;div&gt;
-      &lt;h8k-navbar
-        header=&quot;Kanban Board&quot;
-      /&gt;
-      &lt;div
-        class=&quot;mt-20 layout-column justify-content-center align-items-center&quot;
-      &gt;
-        &lt;section
-          class=&quot;mt-50 layout-row align-items-center justify-content-center&quot;
-        &gt;
-          &lt;input
-            class=&quot;large&quot;
-            data-testid=&quot;create-task-input&quot;
-            id=&quot;create-task-input&quot;
-            placeholder=&quot;New task name&quot;
-            type=&quot;text&quot;
-          /&gt;
-          &lt;button
-            class=&quot;ml-30&quot;
-            data-testid=&quot;create-task-button&quot;
-            type=&quot;submit&quot;
-          &gt;
-            Create task
-          &lt;/button&gt;
-        &lt;/section&gt;
-        &lt;div
-          class=&quot;mt-50 layout-row&quot;
-        &gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Backlog
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-0&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;2-name&quot;
-                    &gt;
-                      2
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;2-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                To Do
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-1&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Ongoing
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-2&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Done
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-3&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:92:38
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:64:17
-    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:108:19)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:161:18)
+    <testcase classname=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" name=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" time="0.004">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:142:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 0" name=" Clicking on delete should delete the task in stage 0" time="0.011">
-      <failure>Error: expect(element).toContainElement(element)
-
-&lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
-        
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:210:23)
+    <testcase classname=" Clicking on delete should delete the task in stage 0" name=" Clicking on delete should delete the task in stage 0" time="0.004">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:194:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 1" name=" Clicking on delete should delete the task in stage 1" time="0.013">
-      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
-
-&lt;body&gt;
-  &lt;div&gt;
-    &lt;div&gt;
-      &lt;h8k-navbar
-        header=&quot;Kanban Board&quot;
-      /&gt;
-      &lt;div
-        class=&quot;mt-20 layout-column justify-content-center align-items-center&quot;
-      &gt;
-        &lt;section
-          class=&quot;mt-50 layout-row align-items-center justify-content-center&quot;
-        &gt;
-          &lt;input
-            class=&quot;large&quot;
-            data-testid=&quot;create-task-input&quot;
-            id=&quot;create-task-input&quot;
-            placeholder=&quot;New task name&quot;
-            type=&quot;text&quot;
-          /&gt;
-          &lt;button
-            class=&quot;ml-30&quot;
-            data-testid=&quot;create-task-button&quot;
-            type=&quot;submit&quot;
-          &gt;
-            Create task
-          &lt;/button&gt;
-        &lt;/section&gt;
-        &lt;div
-          class=&quot;mt-50 layout-row&quot;
-        &gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Backlog
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-0&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;2-name&quot;
-                    &gt;
-                      2
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;2-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                To Do
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-1&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Ongoing
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-2&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Done
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-3&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:92:38
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:64:17
-    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:108:19)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:235:18)
+    <testcase classname=" Clicking on delete should delete the task in stage 1" name=" Clicking on delete should delete the task in stage 1" time="0.005">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:219:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 2" name=" Clicking on delete should delete the task in stage 2" time="0.013">
-      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
-
-&lt;body&gt;
-  &lt;div&gt;
-    &lt;div&gt;
-      &lt;h8k-navbar
-        header=&quot;Kanban Board&quot;
-      /&gt;
-      &lt;div
-        class=&quot;mt-20 layout-column justify-content-center align-items-center&quot;
-      &gt;
-        &lt;section
-          class=&quot;mt-50 layout-row align-items-center justify-content-center&quot;
-        &gt;
-          &lt;input
-            class=&quot;large&quot;
-            data-testid=&quot;create-task-input&quot;
-            id=&quot;create-task-input&quot;
-            placeholder=&quot;New task name&quot;
-            type=&quot;text&quot;
-          /&gt;
-          &lt;button
-            class=&quot;ml-30&quot;
-            data-testid=&quot;create-task-button&quot;
-            type=&quot;submit&quot;
-          &gt;
-            Create task
-          &lt;/button&gt;
-        &lt;/section&gt;
-        &lt;div
-          class=&quot;mt-50 layout-row&quot;
-        &gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Backlog
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-0&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;2-name&quot;
-                    &gt;
-                      2
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;2-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                To Do
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-1&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Ongoing
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-2&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Done
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-3&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:92:38
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:64:17
-    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:108:19)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:262:18)
+    <testcase classname=" Clicking on delete should delete the task in stage 2" name=" Clicking on delete should delete the task in stage 2" time="0.003">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:246:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 3" name=" Clicking on delete should delete the task in stage 3" time="0.017">
-      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
-
-&lt;body&gt;
-  &lt;div&gt;
-    &lt;div&gt;
-      &lt;h8k-navbar
-        header=&quot;Kanban Board&quot;
-      /&gt;
-      &lt;div
-        class=&quot;mt-20 layout-column justify-content-center align-items-center&quot;
-      &gt;
-        &lt;section
-          class=&quot;mt-50 layout-row align-items-center justify-content-center&quot;
-        &gt;
-          &lt;input
-            class=&quot;large&quot;
-            data-testid=&quot;create-task-input&quot;
-            id=&quot;create-task-input&quot;
-            placeholder=&quot;New task name&quot;
-            type=&quot;text&quot;
-          /&gt;
-          &lt;button
-            class=&quot;ml-30&quot;
-            data-testid=&quot;create-task-button&quot;
-            type=&quot;submit&quot;
-          &gt;
-            Create task
-          &lt;/button&gt;
-        &lt;/section&gt;
-        &lt;div
-          class=&quot;mt-50 layout-row&quot;
-        &gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Backlog
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-0&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;2-name&quot;
-                    &gt;
-                      2
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;2-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                To Do
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-1&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Ongoing
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-2&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Done
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-3&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:92:38
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:64:17
-    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:108:19)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:290:18)
+    <testcase classname=" Clicking on delete should delete the task in stage 3" name=" Clicking on delete should delete the task in stage 3" time="0.005">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:274:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" after many forward and back operations, tasks are in correct state" name=" after many forward and back operations, tasks are in correct state" time="0.016">
-      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-3-forward&quot;]
-
-&lt;body&gt;
-  &lt;div&gt;
-    &lt;div&gt;
-      &lt;h8k-navbar
-        header=&quot;Kanban Board&quot;
-      /&gt;
-      &lt;div
-        class=&quot;mt-20 layout-column justify-content-center align-items-center&quot;
-      &gt;
-        &lt;section
-          class=&quot;mt-50 layout-row align-items-center justify-content-center&quot;
-        &gt;
-          &lt;input
-            class=&quot;large&quot;
-            data-testid=&quot;create-task-input&quot;
-            id=&quot;create-task-input&quot;
-            placeholder=&quot;New task name&quot;
-            type=&quot;text&quot;
-          /&gt;
-          &lt;button
-            class=&quot;ml-30&quot;
-            data-testid=&quot;create-task-button&quot;
-            type=&quot;submit&quot;
-          &gt;
-            Create task
-          &lt;/button&gt;
-        &lt;/section&gt;
-        &lt;div
-          class=&quot;mt-50 layout-row&quot;
-        &gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Backlog
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-0&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;2-name&quot;
-                    &gt;
-                      2
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;2-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                To Do
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-1&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Ongoing
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-2&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Done
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-3&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:92:38
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:64:17
-    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:108:19)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:331:18)
+    <testcase classname=" after many forward and back operations, tasks are in correct state" name=" after many forward and back operations, tasks are in correct state" time="0.004">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:303:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" tasks are in correct state after multiple move and deletions" name=" tasks are in correct state after multiple move and deletions" time="0.018">
-      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
-
-&lt;body&gt;
-  &lt;div&gt;
-    &lt;div&gt;
-      &lt;h8k-navbar
-        header=&quot;Kanban Board&quot;
-      /&gt;
-      &lt;div
-        class=&quot;mt-20 layout-column justify-content-center align-items-center&quot;
-      &gt;
-        &lt;section
-          class=&quot;mt-50 layout-row align-items-center justify-content-center&quot;
-        &gt;
-          &lt;input
-            class=&quot;large&quot;
-            data-testid=&quot;create-task-input&quot;
-            id=&quot;create-task-input&quot;
-            placeholder=&quot;New task name&quot;
-            type=&quot;text&quot;
-          /&gt;
-          &lt;button
-            class=&quot;ml-30&quot;
-            data-testid=&quot;create-task-button&quot;
-            type=&quot;submit&quot;
-          &gt;
-            Create task
-          &lt;/button&gt;
-        &lt;/section&gt;
-        &lt;div
-          class=&quot;mt-50 layout-row&quot;
-        &gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Backlog
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-0&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;2-name&quot;
-                    &gt;
-                      2
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;2-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;2-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                To Do
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-1&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Ongoing
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-2&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div
-            class=&quot;card outlined ml-20 mt-0&quot;
-          &gt;
-            &lt;div
-              class=&quot;card-text&quot;
-            &gt;
-              &lt;h4&gt;
-                Done
-              &lt;/h4&gt;
-              &lt;ul
-                class=&quot;styled mt-50&quot;
-                data-testid=&quot;stage-3&quot;
-              /&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/body&gt;
-    at Object.getElementError (/projects/challenge/node_modules/@testing-library/dom/dist/config.js:37:19)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:92:38
-    at /projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:64:17
-    at getByTestId (/projects/challenge/node_modules/@testing-library/dom/dist/query-helpers.js:108:19)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:414:18)
+    <testcase classname=" tasks are in correct state after multiple move and deletions" name=" tasks are in correct state after multiple move and deletions" time="0.003">
+      <failure>ReferenceError: addTask is not defined
+    at KanbanBoard.render (/projects/challenge/src/components/kanban-board/index.js:79:28)
+    at finishClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:25)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:394:6)
     at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
